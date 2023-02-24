@@ -46,4 +46,14 @@ function functionWithReturnAsEnd(a) {
   console.log("YES");
 }
 
-functionWithReturnAsEnd(7);
+// functionWithReturnAsEnd(7);
+
+// Default parameters
+
+function functionDefaultParams(a, b = 5, c = "228") {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+}
+
+functionDefaultParams("a", 23456789);
