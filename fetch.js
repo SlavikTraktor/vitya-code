@@ -9,3 +9,8 @@ promise
   .then((text) => {
     console.log(text);
   });
+
+const promise2 = fetch("http://google.com/some/post/url", {
+  method: "POST",
+  body: JSON.stringify({ kek: "345678werty" }),
+});
